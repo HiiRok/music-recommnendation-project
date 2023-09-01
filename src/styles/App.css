@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+a,
+a:hover,
+a:focus {
+	color: inherit;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: #c31432;
+	background: hsla(0, 5%, 5%, 1);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		right top,
+		from(hsla(0, 3%, 7%, 0.5)),
+		to(hsla(0, 5%, 5%, 1))
+	);
+	background: linear-gradient(30deg, #292b2c, 30%, #232526);
+	min-height: 100vh;
+	background-image: -moz-linear-gradient(
+		to right top,
+		hsla(0, 5%, 15%, 0.5),
+		hsla(0, 5%, 5%, 1)
+	);
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+
+.heading-container {
+	margin-top: 5vh;
+}
+.heading-recommend {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	color: white;
+	font-size: 32px;
+	text-shadow: 0px 1px, 1px 0px, 1px 0px;
+	margin-left: 12vw;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+
+
+
+.button-container input {
+	font-family: 'Nunito', sans-serif;
+	position: relative;
+	margin: auto;
+	width: 50px;
+	height: 50px;
+	outline: none;
+	border: none;
+	background: white;
+	color: black;
+	text-shadow: 0 0 10px white; 
+	padding: 0px 150px 0px 25px;
+	border-radius: 30px;
+	box-shadow: white, 0 20px 25px 0 rgba(0, 0, 0, 0.2);
+	transition: all 0.5s;
+	font-weight: bolder;
+	letter-spacing: 0.1em;
+}
+
+
+.button-container input::placeholder {
+	color: black;
+	opacity: 0.5;
+	font-weight: bolder;
+}  
